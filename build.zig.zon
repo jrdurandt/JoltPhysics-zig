@@ -1,0 +1,17 @@
+.{
+    .name = .JoltPhysics_zig,
+    .version = "5.2.0",
+    .fingerprint = 0x54e7a59a1a1cd674, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.14.0",
+    .dependencies = .{
+        .JoltPhysics = .{
+            .url = "https://github.com/jrouwe/JoltPhysics/archive/refs/tags/v5.2.0.tar.gz",
+            .hash = "1220ef38f35ced6781ff2ee30f97596142d389d3009cf66f2a82495f7cddf00c53b1",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+    },
+}
