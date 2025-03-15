@@ -28,7 +28,7 @@ pub fn build(b: *std.Build) void {
         .shared = b.option(
             bool,
             "shared",
-            "Build JoltC as shared lib",
+            "Build as shared lib",
         ) orelse false,
         .no_exceptions = b.option(
             bool,
